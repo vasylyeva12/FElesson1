@@ -1,0 +1,22 @@
+img {
+    width: 300;
+    height: 300;
+}
+
+p {
+    color: coral;
+    font-size: 28px;
+    
+}
+
+.paragraph {
+color: chocolate;
+}
+
+#p2 {
+    color: darkgreen;
+}
+
+.bild {
+    display: block;
+}
