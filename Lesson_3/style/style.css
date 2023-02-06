@@ -1,0 +1,110 @@
+ol, ul{
+    list-style: auto;
+}
+
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 800px;
+    height: 400px;
+    margin-bottom: 30px;
+    
+}
+
+table tr:first-child td,
+table tr:nth-child(2) td {
+    text-align: center;
+}
+
+.button {
+     
+    text-decoration: none;
+    color: rgb(245, 241, 241);
+    background-color: rgb(44, 41, 41);
+    border: 3px solid rgb(24, 19, 24);
+    padding: 15px 45px;
+    border-radius: 10px;
+    font-size: 30px;
+    
+}
+
+/* table tr:nth-child(-n+5){
+    background-color: black;
+    color: white;
+} */
+
+/* table tr:nth-child(even) td:nth-child(odd) {
+    background-color: rgb(7, 53, 94);
+    
+}
+table tr:nth-child(odd) td:nth-child(even) {
+    background-color: rgb(7, 53, 94);
+    
+} */
+
+/* table tr:nth-child(5n-4) {
+    background-color: chartreuse;
+}
+table tr:nth-child(5n-3) {
+    background-color: rgb(185, 35, 35);
+    color: white;
+} 
+table tr:nth-child(5n-2) {
+    background-color: rgb(182, 185, 35);
+    color: white;
+} 
+table tr:nth-child(5n-1) {
+    background-color: rgb(35, 45, 185);
+    color: white;
+} 
+table tr:nth-child(5n) {
+    background-color: rgb(117, 35, 185);
+    color: white;
+}  */
+
+
+/* table tr:nth-child(n+3){
+    background-color: aqua;
+} */
+
+/* table tr:nth-child(even) {
+    background-color: rgb(34, 7, 59);
+    color: white;
+} */
+
+
+/* table tr:nth-child(2n) {
+    background-color: rgb(34, 7, 59);
+    color: white;
+}
+table tr:nth-child(2n-1) {
+    background-color: rgb(70, 185, 35);
+    color: white;
+} */
+
+/* table tr:first-child {
+    background-color: rgb(24, 23, 23);
+    color: white;
+}
+table tr:last-child {
+    background-color: aqua;
+
+}
+
+table tr:nth-child(3) {
+    background-color: rgb(27, 8, 44);
+    color: white;
+} */
+
+
+
+/* .gray_row {
+    background-color: gray;
+} */
+
+/* table {
+    border-collapse: collapse;
+} */

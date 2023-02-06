@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 0 10px;
+}
+
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 60px;
+    font-size: 100px;
+    color: rgb(153, 126, 7);
+    
+}
+
+.post_blog {
+    border: 25px groove yellow;
+    padding: 20px 0 5px 10px;
+    margin: 20px 0;
+    font-size: 25px;
+    background-color: rgba(241, 240, 239, 0.986);
+    width: 800px;
+    /* height: 400px; */ 
+
+}
+
+ .post_blog p {
+    font-size: 24px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+ }
+
+.post_blog a {
+    text-decoration: none;
+    color: rgb(63, 121, 168);
+    font-size: 20px;
+    display: block;
+}
+.post_blog img {
+    width: 400px;
+}
+.post_blog_3 {
+    padding-bottom: 50px;
+}
+
+.social_link {
+    /* display: block; */
+    margin-top: 5px;
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+.social_link img {
+    width: 40px;
+    padding-left: 15px;
+}
+
+
+/* div {
+    color: blue;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* border: 5px groove yellow; */
+    /* border: 25px;
+    border-style: groove; 
+    border-color: rgba(255, 251, 0, 0.87);
+    /* Внутренний отступ */
+    /* padding: 20px 10px 5px 3px;  */
+    /* padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    padding-left: 5px; */ 
+    /* Внешний отступ */
+    /* margin: 20px 10px 7px 4px; */
+ 
