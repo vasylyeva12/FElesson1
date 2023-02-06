@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-image: url("../Media/Rectangle.png");
+    display: flex;      
+    /* margin-bottom: 140px; */
+    color: white;
+    padding: 0px 405px;
+    padding-top: 122px;
+    padding-bottom: 140px;
+    
+}
+
+.contact-main {
+    margin-right: 101px;
+}
+
+.main .contact-main  h1{
+  font-size: 48px;  
+  font-family: 'Merriweather', serif;
+  padding-bottom: 60px;
+ /* font-weight: 900px; */
+
+}
+
+.main .contact-main p {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+       
+}
+.contact-text {
+width: 445px;
+}
+
+.telefon {
+    display: flex;
+    padding-right: 40px;  
+}
+
+.email {
+    display: flex;
+}
+
+.contact  {
+    display: flex;
+    margin-top: 80px;
+    
+}
+.contact-icon {
+    margin-right: 15px;
+}
+
+.message-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-form {
+    position: relative;
+}
+
+.message-form form .name-inputs{
+    display: flex;
+    margin-bottom: 35px;
+
+}
+
+.message-form form .name-inputs input {
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+}
+.message-form form .name-inputs>div:not(:last-child) {
+    margin-right: 30px;
+}
+
+.message-form form p{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 15px;
+}
+
+.message-form form input {
+    border: none;
+    background-color: transparent;
+}
+.message-form form textarea {
+    background-color: transparent;
+    border: none;
+    
+}
+
+.message-form form input:focus-visible {
+    outline: none;
+}
+
+.message-form form textarea:focus-visible {
+    outline: none;
+}
+
+.message {
+    border-bottom: 1px solid white;
+    padding-bottom: 84px;
+}
+
+button {
+   
+    background-color: #005FA3;
+    width: 270px;
+    /* height: 60px;  */
+    padding: 18px 19px;
+    color: white;
+   margin-left: 80px;
+    
+
+}
+
+textarea {
+    resize: none; 
+    /* padding: 5px;  */
+ }
+
+/* body {
+    padding: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #00425A;
+    color: white;
+
+}
+
+form>*:not(:last-child) {
+    margin: 5px;
+}
+
+form input {
+    padding: 5px;
+} */ 
