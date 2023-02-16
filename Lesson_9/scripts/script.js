@@ -77,7 +77,7 @@
 // const num_1 = prompt("Write first number")
 // const num_2 = prompt("Write second number")
 
-// console.log(`num_1 + num_2 = ${+num_1 + +num_2}`);
+// console.log(`num_1 + num_2 = ${+num_1 * +num_2}`);
 
 const a = "2"
 const b = 2
